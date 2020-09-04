@@ -10,3 +10,11 @@ Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
 
+
+Cocktail.create(name: "Manhatan")
+Cocktail.create(name: "Mono sucio")
+Cocktail.create(name: "Margarita")
+Cocktail.create(name: "Bloody Mary")
+Cocktail.create(name: "Mojito")
+Cocktail.create(name: "Daiquiri")
+Cocktail.create(name: "Cosmopolitan")
