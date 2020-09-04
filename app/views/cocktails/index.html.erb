@@ -14,7 +14,8 @@
         <div class="card mb-3">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="https://source.unsplash.com/800x800/?{'<%= cocktail.name %>'},{cocktail}" class="card-img" alt="<%= cocktail.name %>">
+              <%= cl_image_tag("bvbufx7wq5zpzjk7xqs3",
+                width: 400, height: 300, crop: :fill) %>
             </div>
             <div class="col-md-8">
               <div class="card-body">

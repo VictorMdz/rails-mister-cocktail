@@ -51,4 +51,8 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 
+# Not sharing our keys on github
 gem 'dotenv-rails', groups: [:development, :test]
+
+# Cloudinary environment
+gem 'cloudinary', '~> 1.16.0'
