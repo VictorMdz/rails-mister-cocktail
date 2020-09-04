@@ -13,10 +13,11 @@
       <div class="classol">
         <div class="card mb-3">
           <div class="row no-gutters">
+            <% if cocktail.photo.attached? %>
             <div class="col-md-4">
-              <%= cl_image_tag("bvbufx7wq5zpzjk7xqs3",
-                width: 400, height: 300, crop: :fill) %>
+              <%= cl_image_tag cocktail.photo.key, height: 300, width: 400, crop: :fill %>
             </div>
+            <% end %>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title"><%= cocktail.name %></h5>

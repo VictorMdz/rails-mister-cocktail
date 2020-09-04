@@ -1,5 +1,8 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
+    <% if @cocktail.photo.attached? %>
+    <%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+    <% end %>
     <h1 class="display-4"><%= @cocktail.name %></h1>
     <p class="lead">This is the <%= @cocktail.name %> cocktail, do you wanna try?</p>
     <ul>
